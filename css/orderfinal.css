@@ -1,0 +1,92 @@
+body{
+    background-color: antiquewhite;
+}
+#orderContainer
+{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: auto;
+    text-align: center;
+}
+#orderContainer i
+{
+    color: rgb(5, 187, 5);
+    padding-bottom: 30px;
+    font-size: 10em;
+}
+#aboutCheck p
+{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#aboutCheck h1
+{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media(max-width: 700px)
+{
+    #orderContainer i
+    {
+        font-size: 8em;
+        padding-bottom: 30px;
+    }
+    h1
+    {
+        font-size: 18px;
+    }
+    p
+    {
+        font-size: 15px;
+    }
+}
+.contact{
+    height: max-content;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+}
+
+.contact .social{
+    margin-left: 7.2rem;
+    font-size: 1.5rem;
+}
+
+.methods{
+    margin-left: 0.4rem;
+}
+
+.fb{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.438);
+    margin: .3125rem;
+}
+.wp{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.438);
+    margin: .3125rem;
+}
+.ig{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.438);
+    margin: .3125rem;
+}
+.x{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.438);
+    margin: .3125rem;
+}

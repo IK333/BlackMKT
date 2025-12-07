@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> About BlackMKT</title>
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/orderfinal.css">
+</head>
+<body>  
+   
+    <div id="1"></div>
+    <script>
+        load("header.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(1).innerHTML = req.responseText;
+        }
+    </script>
+
+
+    <div id="orderContainer">
+        <div id="check"><i class="fas fa-check-circle"></i></div>
+        
+        <div id="aboutCheck">
+            <h1> About BlackMKT </h1>
+            <p> Welcome to <b>BlackMKT</b>, your trusted source for contemporary style where high-quality fashion meets effortless accessibility. The name BlackMKT is inspired by the idea of an exclusive, hidden source for the best finds—we have curated a selection of clothing and accessories that are both desirable and distinctive.</p>
+            <h3>Our Mission</h3>
+            <p>Our mission is simple: to provide a carefully selected collection of <b>clothing and accessories for both men and women</b> that empowers you to express your individual style. We believe that fashion should be a form of self-expression, and our inventory reflects a dynamic mix of sharp, modern trends and timeless, essential pieces. </p>
+            <h3>What you'll find</h3>
+            <p>We scour the market to bring you a diverse range of items—from sophisticated daily wear and statement pieces to essential accessories like jewelry, bags, and footwear. Whether you're refreshing your professional wardrobe or hunting for that perfect weekend outfit, <b>BlackMKT</b> is designed to be your go-to destination for fashion that makes an impact.
+
+We are more than just a store; we are a marketplace built on quality, style, and the thrill of the perfect find.</p>
+        </div>
+    </div>
+
+        <div id="4"></div>
+        <script>
+            load("footer.html");
+            function load(url)
+            {
+                req = new XMLHttpRequest();
+                req.open("GET", url, false);
+                req.send(null);
+                document.getElementById(4).innerHTML = req.responseText;
+            }
+        </script>
+</body>
+<script src="/orderfinal.js"></script>
+</html>

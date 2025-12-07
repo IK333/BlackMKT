@@ -1,0 +1,136 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+}
+
+/* --- Styles for the new Checkout Form --- */
+#checkoutContainer {
+    width: 90%;
+    max-width: 600px; /* Better for forms on large screens */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#checkoutContainer h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+#checkout-form .form-group {
+    margin-bottom: 20px;
+}
+
+#checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#checkout-form input[type="text"],
+#checkout-form input[type="email"],
+#checkout-form input[type="tel"],
+#checkout-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+#checkout-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#checkout-form .payment-options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#checkout-form .payment-options h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#checkout-form .payment-options label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#checkout-form .payment-options input[type="radio"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#checkout-form #submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(3, 122, 122);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-form #submit-btn:hover {
+    background-color: rgb(3, 94, 94);
+}
+
+
+/* --- Styles for the Success Message (Original styles, re-targeted) --- */
+#orderSuccessContainer
+{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: auto;
+    text-align: center;
+}
+#orderSuccessContainer i
+{
+    color: rgb(5, 187, 5);
+    padding-bottom: 30px;
+    font-size: 10em;
+}
+#orderSuccessContainer #aboutCheck p
+{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#orderSuccessContainer #aboutCheck h1
+{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media(max-width: 700px)
+{
+    #orderSuccessContainer i
+    {
+        font-size: 8em;
+        padding-bottom: 30px;
+    }
+    h1, #checkoutContainer h2
+    {
+        font-size: 18px;
+    }
+    p
+    {
+        font-size: 15px;
+    }
+}
